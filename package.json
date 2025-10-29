@@ -1,0 +1,72 @@
+{
+  "name": "keycloak-vue",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Keycloak plugin for Vue 3.5+ in Composition API",
+  "main": "./dist/keycloak-vue.umd.js",
+  "module": "./dist/keycloak-vue.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/keycloak-vue.es.js",
+      "require": "./dist/keycloak-vue.umd.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.8.1",
+    "happy-dom": "^20.0.10",
+    "typescript": "~5.9.3",
+    "vite": "npm:rolldown-vite@7.1.14",
+    "vite-plugin-dts": "^4.5.4",
+    "vitepress": "^2.0.0-alpha.12",
+    "vitest": "^4.0.4",
+    "vue-tsc": "^3.1.0"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "vue",
+    "vue3",
+    "keycloak",
+    "keycloak-js",
+    "composition-api",
+    "authentication",
+    "oauth2",
+    "openid-connect",
+    "oidc",
+    "sso"
+  ],
+  "peerDependencies": {
+    "keycloak-js": "^26.2.1",
+    "vue": "^3.5.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": ""
+}
