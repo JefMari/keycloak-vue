@@ -338,4 +338,4 @@ app.use(createKeycloakPlugin({
 
 - Configure [Callbacks](/guide/callbacks)
 - Learn about [Token Management](/examples/token-refresh)
-- Explore [Security Best Practices](/guide/security)
+- Explore [Protected API Calls](/examples/protected-api)

@@ -396,5 +396,5 @@ app.use(createKeycloakPlugin({
 ## Next Steps
 
 - Learn about [Token Refresh](/examples/token-refresh)
-- Explore [Router Guards](/examples/router-guards)
-- Check out [Error Handling](/guide/error-handling)
+- Explore [Protected API Calls](/examples/protected-api)
+- Check out [Role-Based Access](/examples/role-based)
