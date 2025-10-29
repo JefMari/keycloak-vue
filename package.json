@@ -66,7 +66,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/JefMari/keycloak-vue.git"
   },
-  "homepage": ""
+  "homepage": "https://jefmari.github.io/keycloak-vue/"
 }

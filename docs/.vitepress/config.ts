@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'KeycloakVue',
   description: 'A comprehensive Vue 3.5+ wrapper for keycloak-js using the Composition API',
+  base: '/keycloak-vue/',
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]
@@ -68,7 +69,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/keycloak-vue' }
+      { icon: 'github', link: 'https://github.com/JefMari/keycloak-vue' }
     ],
 
     footer: {
