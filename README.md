@@ -405,4 +405,3 @@ MIT
 
 - [Keycloak](https://www.keycloak.org/)
 - [Keycloak JavaScript Adapter](https://www.keycloak.org/securing-apps/javascript-adapter)
-- [Vue 3](https://vuejs.org/)
