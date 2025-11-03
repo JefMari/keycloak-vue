@@ -1,3 +1,9 @@
+---
+title: Installation
+description: How to install KeycloakVue in your Vue 3 project using npm, yarn, or pnpm
+outline: deep
+---
+
 # Installation
 
 ## Package Manager

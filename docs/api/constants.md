@@ -1,3 +1,9 @@
+---
+title: Constants
+description: Default values and constants used in KeycloakVue for initialization options and configuration
+outline: deep
+---
+
 # Constants
 
 Default values and constants used in KeycloakVue.
@@ -249,9 +255,9 @@ const SCOPE = 'openid profile email'
 
 app.use(createKeycloakPlugin({
   config: {
-    url: '',
-    realm: '',
-    clientId: ''
+    url: import.meta.env.VITE_KEYCLOAK_URL,
+    realm: import.meta.env.VITE_KEYCLOAK_REALM,
+    clientId: import.meta.env.VITE_KEYCLOAK_CLIENT_ID
   },
   initOptions: {
     ...DEFAULT_INIT_OPTIONS,

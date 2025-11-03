@@ -1,3 +1,9 @@
+---
+title: API Reference
+description: Comprehensive API documentation for KeycloakVue including composables, types, enums, and constants
+outline: deep
+---
+
 # API Reference
 
 ## Overview

@@ -1,3 +1,9 @@
+---
+title: Keycloak Config
+description: Configure connection settings to your Keycloak server including URL, realm, and client ID
+outline: deep
+---
+
 # Keycloak Config
 
 The Keycloak configuration defines the connection to your Keycloak server.
@@ -91,9 +97,9 @@ VITE_KEYCLOAK_CLIENT_ID=prod-client
 // main.ts
 app.use(createKeycloakPlugin({
   config: {
-    url: '',
-    realm: '',
-    clientId: ''
+    url: import.meta.env.VITE_KEYCLOAK_URL,
+    realm: import.meta.env.VITE_KEYCLOAK_REALM,
+    clientId: import.meta.env.VITE_KEYCLOAK_CLIENT_ID
   }
 }))
 ```

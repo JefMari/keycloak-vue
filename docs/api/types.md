@@ -1,3 +1,9 @@
+---
+title: Types
+description: Complete TypeScript type definitions for KeycloakVue including interfaces, token types, and configuration options
+outline: deep
+---
+
 # Types
 
 Complete TypeScript type definitions for KeycloakVue.

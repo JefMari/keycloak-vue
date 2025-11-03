@@ -31,7 +31,9 @@ export default defineConfig({
           items: [
             { text: 'Plugin Setup', link: '/guide/plugin-setup' },
             { text: 'Using the Composable', link: '/guide/composable' },
-            { text: 'Manual Initialization', link: '/guide/manual-init' }
+            { text: 'Manual Initialization', link: '/guide/manual-init' },
+            { text: 'Async Initialization', link: '/guide/async-initialization' },
+            { text: 'Vue Router Integration', link: '/guide/router-integration' }
           ]
         },
         {
@@ -60,6 +62,7 @@ export default defineConfig({
           text: 'Examples',
           items: [
             { text: 'Overview', link: '/examples/' },
+            { text: 'Vue Router Integration', link: '/examples/router-example' },
             { text: 'Token Refresh', link: '/examples/token-refresh' },
             { text: 'Protected API Calls', link: '/examples/protected-api' },
             { text: 'Role-Based Access', link: '/examples/role-based' }

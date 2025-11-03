@@ -1,3 +1,9 @@
+---
+title: useKeycloak
+description: Main composable for accessing Keycloak functionality including authentication state, tokens, and methods
+outline: deep
+---
+
 # useKeycloak
 
 The main composable for accessing Keycloak functionality in your components.

@@ -1,3 +1,9 @@
+---
+title: Manual Initialization
+description: Initialize Keycloak manually without using the plugin system for more control over the initialization process
+outline: deep
+---
+
 # Manual Initialization
 
 If you prefer not to use the plugin system, you can initialize Keycloak manually.
@@ -29,9 +35,9 @@ console.log('Authenticated:', authenticated)
 import { initKeycloak } from 'keycloak-vue'
 
 export const keycloak = initKeycloak({
-  url: '',
-  realm: '',
-  clientId: ''
+  url: import.meta.env.VITE_KEYCLOAK_URL,
+  realm: import.meta.env.VITE_KEYCLOAK_REALM,
+  clientId: import.meta.env.VITE_KEYCLOAK_CLIENT_ID
 })
 
 export async function initializeKeycloak() {
@@ -125,9 +131,9 @@ import type Keycloak from 'keycloak-js'
 export const keycloakKey: InjectionKey<Keycloak> = Symbol('keycloak')
 
 export const keycloak = initKeycloak({
-  url: '',
-  realm: '',
-  clientId: ''
+  url: import.meta.env.VITE_KEYCLOAK_URL,
+  realm: import.meta.env.VITE_KEYCLOAK_REALM,
+  clientId: import.meta.env.VITE_KEYCLOAK_CLIENT_ID
 })
 ```
 

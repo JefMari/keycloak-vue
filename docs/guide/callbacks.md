@@ -1,3 +1,9 @@
+---
+title: Callbacks
+description: Handle Keycloak authentication events with callback functions for custom authentication flow logic
+outline: deep
+---
+
 # Callbacks
 
 Handle Keycloak authentication events with callback functions.

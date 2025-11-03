@@ -1,9 +1,16 @@
+---
+title: Examples
+description: Practical examples and use cases for implementing authentication features with KeycloakVue
+outline: deep
+---
+
 # Examples
 
 This section provides practical examples of common use cases with KeycloakVue.
 
 ## Available Examples
 
+- [Vue Router Integration](/examples/router-example) - Complete app with Vue Router, guards, and IIFE pattern
 - [Token Refresh](/examples/token-refresh) - Automatic token refresh strategies
 - [Protected API Calls](/examples/protected-api) - Making authenticated HTTP requests
 - [Role-Based Access](/examples/role-based) - Implementing role-based rendering and navigation
@@ -177,6 +184,7 @@ export default router
 
 Explore detailed examples:
 
+- [Vue Router Integration](/examples/router-example)
 - [Token Refresh](/examples/token-refresh)
 - [Protected API Calls](/examples/protected-api)
 - [Role-Based Access](/examples/role-based)

@@ -1,3 +1,9 @@
+---
+title: Enums
+description: Enumeration constants for Keycloak configuration including authentication flows, response modes, and token types
+outline: deep
+---
+
 # Enums
 
 Enumeration constants for Keycloak configuration.

@@ -1,3 +1,9 @@
+---
+title: Init Options
+description: Configure Keycloak initialization options including authentication flows, token handling, and security settings
+outline: deep
+---
+
 # Init Options
 
 Configure how Keycloak initializes and authenticates users in your application.

@@ -1,3 +1,9 @@
+---
+title: Getting Started
+description: Learn how to integrate Keycloak authentication into your Vue 3 application with KeycloakVue
+outline: deep
+---
+
 # Getting Started
 
 Welcome to KeycloakVue! This guide will help you integrate Keycloak authentication into your Vue 3 application.
@@ -102,5 +108,7 @@ const {
 ## Next Steps
 
 - Learn about [Plugin Setup](/guide/plugin-setup)
+- Understand [Async Initialization](/guide/async-initialization)
 - Explore the [Composable API](/guide/composable)
+- Set up [Vue Router Integration](/guide/router-integration)
 - Check out [Examples](/examples/)

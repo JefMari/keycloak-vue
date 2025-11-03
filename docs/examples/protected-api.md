@@ -1,3 +1,9 @@
+---
+title: Protected API Calls
+description: Learn how to make authenticated HTTP requests with proper token management using KeycloakVue
+outline: deep
+---
+
 # Protected API Calls
 
 Learn how to make authenticated HTTP requests with proper token management.
@@ -384,8 +390,3 @@ async function apiCallWithErrorHandling(endpoint: string) {
 4. **Error Handling** - Properly handle and display API errors
 5. **Type Safety** - Use TypeScript for type-safe API calls
 6. **Loading States** - Show loading indicators during API calls
-
-## Next Steps
-
-- [Token Refresh](/examples/token-refresh)
-- [Role-Based Access](/examples/role-based)

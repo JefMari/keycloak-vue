@@ -1,3 +1,9 @@
+---
+title: Using the Composable
+description: Learn how to use the useKeycloak() composable for reactive authentication state and methods
+outline: deep
+---
+
 # Using the Composable
 
 The `useKeycloak()` composable provides reactive access to Keycloak authentication state and methods throughout your application.
