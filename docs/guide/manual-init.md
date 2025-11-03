@@ -29,9 +29,9 @@ console.log('Authenticated:', authenticated)
 import { initKeycloak } from 'keycloak-vue'
 
 export const keycloak = initKeycloak({
-  url: import.meta.env.VITE_KEYCLOAK_URL,
-  realm: import.meta.env.VITE_KEYCLOAK_REALM,
-  clientId: import.meta.env.VITE_KEYCLOAK_CLIENT_ID
+  url: '',
+  realm: '',
+  clientId: ''
 })
 
 export async function initializeKeycloak() {
@@ -125,9 +125,9 @@ import type Keycloak from 'keycloak-js'
 export const keycloakKey: InjectionKey<Keycloak> = Symbol('keycloak')
 
 export const keycloak = initKeycloak({
-  url: import.meta.env.VITE_KEYCLOAK_URL,
-  realm: import.meta.env.VITE_KEYCLOAK_REALM,
-  clientId: import.meta.env.VITE_KEYCLOAK_CLIENT_ID
+  url: '',
+  realm: '',
+  clientId: ''
 })
 ```
 

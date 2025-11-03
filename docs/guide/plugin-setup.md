@@ -163,9 +163,9 @@ VITE_KEYCLOAK_CLIENT_ID=prod-client
 // main.ts
 app.use(createKeycloakPlugin({
   config: {
-    url: import.meta.env.VITE_KEYCLOAK_URL,
-    realm: import.meta.env.VITE_KEYCLOAK_REALM,
-    clientId: import.meta.env.VITE_KEYCLOAK_CLIENT_ID
+    url: '',
+    realm: '',
+    clientId: ''
   }
 }))
 ```
@@ -203,9 +203,9 @@ const initApp = async () => {
   
   app.use(createKeycloakPlugin({
     config: {
-      url: import.meta.env.VITE_KEYCLOAK_URL,
-      realm: import.meta.env.VITE_KEYCLOAK_REALM,
-      clientId: import.meta.env.VITE_KEYCLOAK_CLIENT_ID,
+      url: '',
+      realm: '',
+      clientId: '',
     },
     initOptions: {
       onLoad: 'login-required',
@@ -247,9 +247,9 @@ const initApp = async () => {
   // Install plugin first
   app.use(createKeycloakPlugin({
     config: {
-      url: import.meta.env.VITE_KEYCLOAK_URL,
-      realm: import.meta.env.VITE_KEYCLOAK_REALM,
-      clientId: import.meta.env.VITE_KEYCLOAK_CLIENT_ID,
+      url: '',
+      realm: '',
+      clientId: '',
     },
     initOptions: {
       onLoad: 'login-required',
